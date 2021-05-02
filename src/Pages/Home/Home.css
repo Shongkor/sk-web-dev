@@ -1,0 +1,75 @@
+#home {
+    background: none;
+    height: 100%;
+}
+section {
+    background: #fff;
+    overflow: hidden;
+}
+body {
+    color: #212226;
+}
+#home-bg-image {
+    position: fixed;
+    margin-top: 25%;
+    left: 50%;
+    
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    background: url(../../Images/IMG_20190712_205251\ -\ Copy.jpg) no-repeat;
+    background-size: contain;
+    height: 700px;
+}
+#home-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+#home-content {
+      
+      display: table;
+      margin-left: auto;
+      margin-top: 15%;
+          margin-right: 15%;
+    
+}
+#home-content-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+#home-heading h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 100;
+    display: inline-block;
+    font-size: 40px;
+    margin: 0;
+}
+.nm {
+    letter-spacing: 6px;
+}
+#home-heading span {
+    color: #f4c613;
+    font-weight: 500;
+}
+#mobile-nav {
+    height: 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background-color: #fff;
+    -webkit-transition: all 300ms linear;
+    transition: all 300ms linear;
+    overflow-y: hidden;
+}

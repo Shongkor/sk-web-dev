@@ -1,0 +1,40 @@
+.hero-section {
+    height: 600px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-image: url(../../Images/image\ 9.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.mainSkill h4 {
+    position: relative;
+    margin-bottom: 15px;
+    color: #fff;
+    border-bottom: 4px solid rgb(238, 219, 219);
+    display: inline-block;
+}
+.skills {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+}
+.skills span {
+    background: #060a0f;
+    margin-right: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    padding: 3px 10px;
+    font-size: 13px;
+    height: 26px;
+    color: #fff;
+}
+.background{
+    background-color: #4B5769;
+}
